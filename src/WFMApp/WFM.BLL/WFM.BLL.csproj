@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nager.Date" Version="1.29.2" />
+    <PackageReference Include="MailKit" Version="2.13.0" />
+    <PackageReference Include="Quartz.AspNetCore" Version="3.3.2" />
+    <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WFM.DAL\WFM.DAL.csproj" />
+    <ProjectReference Include="..\WFM.Models\WFM.Models.csproj" />
+  </ItemGroup>
+
+</Project>
